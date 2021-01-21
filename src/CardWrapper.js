@@ -5,7 +5,6 @@ import './App.css';
 function CardWrapper({entryNum, name, image, branch, about, contact1, contact2}) {
   const [isOpen, setIsOpen] =useState(false);
   const toggle= () => setIsOpen(!isOpen);
-  console.log("123");
 
   return (
     <div className="CardWrapper col-12 col-sm-6 col-md-4" key={entryNum} onClick={toggle}>

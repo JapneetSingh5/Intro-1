@@ -1,4 +1,5 @@
-import React from 'react';
+import { Card, CardImg, CardText, CardBody, CardImgOverlay, CardTitle, CardFooter, CardHeader, Collapse} from 'reactstrap';
+import React, {useState} from 'react';
 import { FRESHERS } from "./Freshers";
 import CardWrapper from './CardWrapper';
 
