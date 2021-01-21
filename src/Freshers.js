@@ -46,6 +46,11 @@ export const FRESHERS = [
         contact: [
             {
                 id: 0,
+                type: "insta",
+                url: 'https://www.instagram.com/'
+            },
+            {
+                id: 1,
                 type: 'fb',
                 url: 'https://www.facebook.com/'
             }
@@ -57,5 +62,17 @@ export const FRESHERS = [
         image: '/assets/cardImg.png',
         branch: "me2",
         about: 'Big fan of movies. Reading is not my cup of tea',
+        contact: [
+            {
+                id: 0,
+                type: "insta",
+                url: 'https://www.instagram.com/'
+            },
+            {
+                id: 1,
+                type: 'fb',
+                url: 'https://www.facebook.com/'
+            }
+        ]
     }
 ];
